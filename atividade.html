@@ -4,56 +4,149 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    
+        <title>Document</title>
 
     <style>
-        body{
-            background-color: rgb(48, 43, 43);
-            color: rgb(255, 255, 255);
+        html{
+            font-size: 6.5%;
         }
-    aside{
+        body{
+            background-color: rgb(34, 30, 30);
+            color: rgb(175, 172, 172);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 13rem;
+            line-height: 24rem;
+            padding-top: 36rem;
+        }
+        aside{
         display: flex;
         flex-direction: column;
         align-items: center;
 
-    }
-    form{
+        }
+        .newUser{
+            margin-top: 16rem;
+        }
+        form{
         display: flex;
         flex-direction: column;
-    }
-    .divisor{
+        
+        width: 300rem;
+        }
+        .divisor{
         display: flex;
         flex-direction: row;
-    }
+        margin-top: 48rem;
+        width: 300rem;
+        }
+        .divisor div{
+            height: 32rem;
+            display: flex;
+            d
+        }
+        .singup{
+        font-weight: 900;
+        color: rgb(233, 233, 233);
+        }
+        .subTitle{
+            width: 235rem;
+            text-align:center;
+            letter-spacing: 0px;
+        }
+        input{
+            height: 48rem;
+            background-color:#1E1F24 ;
+            border: none;
+            border-radius: 4rem;
+        }
+        .forgot{
+            height: 48rem;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        button[type="submit"]{
+            height: 48rem;
+            background-color: #1d2452;
+            color: white;
+            border: none;
+            border-radius: 4rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        button{
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            border: none;
+            border-radius: 4rem;
+            height: 48rem;
+            width: 100%;
+            background-color: #1E1F24;
+            
+            
+            
+        }
+        hr{
+            border: 0px ;
+            width: 87rem;
+            border-top: 1px solid gray;
+
+        }
+        .tittleEnter{
+            margin-left: 16rem;
+            margin-right: 16rem;
+        }
+        .containerSocial{
+            display: flex;
+            width: 300rem;
+
+        }
+        .google{
+            margin-right: 8rem;
+        }
+        .google img, .apple img {
+            border-right: 1px solid gray;
+            margin-right: 16rem;
+            padding-right: 16rem ;
+        }
+        
+        
     </style>
   </head>
-  <body>
-<main>
-    <section></section>
-    <aside>
-    <img src="\imagens\logo.png" alt="Logo Fight Play"></src>
- <p>Entre para a maior comunidade <br>de lutas do brasil</p> 
-    <form action="">
-        <label for="email">Email</label>
-        <input type="email" required />
+    <body>
+        <main>
+            <section></section>
+            <aside>
+                <img src="\imagens\logo.png" width="220" height="138" alt="Logo Fight Play"></src>
+                <p class="subTitle">Entre para a maior comunidade <br> de lutas do brasil </p> 
+                <form action="">
+                    <label for="email"> Email </label>
+                    <input type="email" required />
         
-        <label for="senha">Senha</label>
-        <input type="senha" required />
-        <p>Esqueci minha senha</p>
-        <button type="submit">Entrar</button>
-    </form>
-    <section class="divisor">
-        <div>------------</div>
-        <div>Ou entre com</div>
-        <div>------------</div>
-    </section>
-    <section>
-        <button>Google</button>
-        <button>Apple</button>
-    </section>
-    <p>Novo no Figth play? Crie uma conta!</p>
-</aside>
+                    <label for="senha">Senha</label>
+                    <input type="senha" required />
+                    <div class="forgot">Esqueci minha senha</div>
+                    <button type="submit">Entrar</button>
+                </form>
+                <section class="divisor">
+                    <div> <hr > </div>
+                    
+                    <div class="tittleEnter">Ou entre com</div>
+                    <div> <hr > </div>
+                </section>
+                <section class="containerSocial">
+                    <button class="google">
+                        <img src="imagens/google-icon.svg" alt="Icon do goole">Google</button>
+                    <button class="apple">
+                        <img src="imagens/apple-icon.svg" alt="Icon da appçe">Apple</button>
+                </section>
+                    <p class="newUser">Novo no Figth play? <span class="singup">Crie uma conta!</span></p>
+            </aside>
 
-</main>
-</body>
+        </main>
+    </body>
 </html>
