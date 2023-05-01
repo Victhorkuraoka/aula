@@ -30,7 +30,7 @@
         align-items: center;
         justify-content: space-between;
         height: 100vh;
-        
+        width: 50vw;
 
         }
         .newUser{
@@ -129,24 +129,29 @@
 
         }
        
+        .imagenslutador{
+            height: 100vh;
+            width: 50vw;
+            background-image: url("lutador.png");
+            background-size: cover;
+        } 
+        main{
+            display: flex;
+        }
+        @media (max-width:768px) {
+        .imagensLutador{
         
-        @media (max-width:1023px) {
-        .imagensLutador,{
+        display: none ;
         
-        display: flex;
-        position: absolute;
-        width: 680px;
-        height: 832px;
-        left: 0px;
-        top: 0px;
             
-         }
-         .imagensLutador {
-            display: none;
+        } aside{
+         width: 100vw;
+        }
+    }
            
             
-         }
-        }       
+         
+           
         
 
         
@@ -156,7 +161,7 @@
     <body>
         <main>
             <section class="imagensLutador">
-                <img src="imagens/lutador.png" alt=" Lutador de entrada">
+               /* <img src="imagens/lutador.png" alt=" Lutador de entrada">*/
             </section>
             <aside>
 
