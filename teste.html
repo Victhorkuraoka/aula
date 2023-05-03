@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tailwindcss</title>
+</head>
+<body class="bg-zinc-900 h-screen flex flex-row ">
+    
+    <main class="w-1/2 h-full md:block">
+      <img class="object-cover w-full h-full" src="imagens/lutador.png" alt="">
+    </main>
+    <aside class="w-full flex flex-col items-center md:w-1/2 h-full justify-between">
+    <section class="flex flex-col items-center">
+    <section class="w-60 h-32 my-6" >
+      <img src="imagens/logo.png" alt="">
+    </section>
+    <section class="w-56 h-12  text-gray-300 text-center mb-4">Entre para a maior comunidade de lutas do brasil</section>
+    <section id="form" class="w-80 h-72 ">
+      <form action="">      
+        <div class="text-white my-2">Email</div>
+        
+        <section class="bg-zinc-800 w-full h-12 rounded-md">
+          <input 
+              type="email"
+             class="w-full h-full bg-transparent text-white px-4 focus:outline-none focus:ring focus:ring-red-900 focus:rounded-md">
+        </section>
+        <div  class="text-white my-2">Senha</div>
+        <section class="bg-zinc-800 w-full h-12 rounded-md relative">
+          <section>
+            <input 
+              type="senha" 
+              class="absolute w-full h-full bg-transparent text-white pl-4 pr-10 focus:outline-none focus:ring focus:ring-red-900 focus:rounded-md">
+          </section>
+          <section class="absolute right-2 mt-3 w-8 h-8 fixed">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="none" 
+             viewBox="0 0 24 24" 
+              stroke-width="1" 
+              stroke="currentColor" 
+              class="text-gray-500 w-6 h-6">
+            <path 
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+          </svg>
+          </section>
+          
+        </section>
+        <section></section>
+        <section class="text-white my-6 text-right">Esqueci minha senha</section>
+        <section>
+          <button type="submit" class= "rounded-md w-full h-10 bg-indigo-900 text-white">Entrar</button>
+
+        </section>
+        
+      </form>
+      
+    </section>
+    <section class="text-white text-center mt-4">Entre com </section>
+    <section class=" w-full h-12 mt-6  flex flex-row relative">
+        <button type="submit" class="absolute left-5 bg-zinc-800 w-36 h-12 text-gray-300 flex flex-row rounded-md justify-center items-center">
+          
+          <img src="imagens/google-icon.svg" alt="google">
+          <div class="text-white font-bold">Google</div> 
+        </button>
+        <button type="submit" class="absolute right-5 bg-zinc-800 w-36 h-12 text-gray-300 flex flex-row rounded-md justify-center items-center">
+          
+          <img src="imagens/apple-icon.svg" alt="apple">
+          <div class="text-white font-bold">Apple</div> 
+        </button>
+    </section>
+  </section>
+    <section class="text-white mt-4 mb-6">
+      
+      Clique aqui para
+      <span class="text-yellow-400">cadastre-se</span>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+</aside>
+  </body>
+</html>
