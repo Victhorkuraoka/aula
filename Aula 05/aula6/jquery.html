@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/> <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+     <style type="text/css"> 
+    
+    .slide-container { 
+        width: 80%; 
+        margin: 
+        0 auto; 
+        } 
+    .slide { 
+            height: 300px; 
+            background-color: #ff0c0c; 
+            text-align: center; 
+            padding: 
+            50px; 
+        } 
+            </style>
+</head>
+<body>
+    
+
+
+
+
+    <div class="slide-container">
+         <div class="slide"> 
+        <h2>Slide 1</h2> 
+        <p>Este é o primeiro slide.</p> 
+    </div> 
+    <div class="slide"> 
+        <h2>Slide 2</h2> 
+        <p>Este é o segundo slide.</p> 
+    </div> 
+    <div class="slide"> 
+        <h2>Slide 3</h2> 
+        <p>Este é o terceiro slide.</p> 
+    </div> 
+</div>
+    
+    
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ 
+    <script 
+    type="text/javascript" 
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
+
+
+<script >
+    $(Document).ready(function(){
+
+            $(".slide-container").slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: false ,
+            });
+    });
+
+
+</script>
+
+
+
+</body>
+</html>

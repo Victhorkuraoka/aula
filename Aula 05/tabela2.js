@@ -43,6 +43,7 @@ dataCustumers.map((item) => {
         if (confirm("Tem certeza que deseja excluir?")){
             const row = btn.closest("tr");
             row.remove();
+            toastr.info("cadastro apagado")
         }
     });
 cell5.appendChild(btn);
