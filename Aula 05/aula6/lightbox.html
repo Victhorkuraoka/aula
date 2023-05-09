@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</head>
+<body>
+    <div class="gallery">
+      <a href="https://picsum.photos/500/500" data-lightbox="gallery">  <img src="https://picsum.photos/500/500" alt="aletorio"></a>
+      <a href="https://picsum.photos/500/500" data-lightbox="gallery">   <img src="https://picsum.photos/500/500" alt="aletorio"></a>
+      <a href="https://picsum.photos/500/500" data-lightbox="gallery">  <img src="https://picsum.photos/500/500" alt="aletorio"></a>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script>
+
+         lightbox.option({
+        
+       'resizeDuration': 200,
+        
+        'wrapAround': true,
+        
+       'albumLabel': "Minha galeria %1 of %2"
+        
+       })
+        
+     </script>
+</body>
+</html>
