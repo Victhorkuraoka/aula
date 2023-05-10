@@ -4,11 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <!DOCTYPE html>
     <html>
       <head>
         <style>
+          html {
+            font-size: 6.5%;
+          }
+
+          main {
+            max-width: 1200px;
+          }
+          body {
+            background-color: beige;
+            font-weight: 300;
+            font-size: 13rem;
+            line-height: 24rem;
+          }
+
           .container {
             display: grid;
             grid-template-columns: 66% 33%;
@@ -26,8 +46,21 @@
             justify-content: center;
           }
 
-          .text {
+          .text1 {
             margin-bottom: 10px;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 60px;
+          }
+          .text2 {
+            margin-bottom: 10px;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
           }
 
           .avatar {
@@ -48,26 +81,91 @@
 
           .button {
             padding: 10px;
-            background-color: #eaeaea;
+            background-color: beige;
             border: none;
             border-radius: 5px;
             font-size: 14px;
             cursor: pointer;
             margin-bottom: 5px;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px;
+            text-align: right;
+          }
+          .jogo {
+            width: 208px;
+            height: 47px;
+
+            background: #ff6464;
+            border-radius: 2px;
+          }
+
+          .recentPost {
+            width: 1152px;
+            height: 396px;
+            background-color: aquamarine;
+          }
+
+          .post {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 60px;
+            display: flex;
+            align-items: flex-end;
+          }
+          .verTudo {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #00a8cc;
+          }
+          .telas {
+            display: flex;
+          }
+          .tela1 {
+            background-color: bisque;
+            width: 50%;
+            height: 295px;
+            margin-right: 8px;
+            margin-left: 8px;
+          }
+          .tela2 {
+            background-color: bisque;
+            width: 50%;
+            height: 295px;
+            margin-right: 8px;
+            margin-left: 8px;
+          }
+          .foot {
+            width: 1152px;
+            height: 182px;
+            justify-content: center;
+            display: flex;
           }
         </style>
       </head>
       <body>
         <div class="container2">
           <div class="button-container">
-            <button class="button">Botão 1</button>
-            <button class="button">Botão 2</button>
+            <button class="button">Works</button>
+            <button class="button">Blog</button>
+            <button class="button">Contact</button>
           </div>
         </div>
         <div class="container">
           <div class="column1">
-            <p class="text">Texto 1</p>
-            <p class="text">Texto 2</p>
+            <p class="text1">
+              Ola me chamo Victhor, <br />
+              Sou desenvolvedor front-end
+            </p>
+            <p class="text2">Desenvolvedor em inicio de carreira</p>
           </div>
           <div class="column2">
             <img
@@ -77,6 +175,36 @@
             />
           </div>
         </div>
+        <button
+          class="jogo"
+          onclick="window.location.href = 'www.retrogames.cc/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa.html'"
+        >
+          Dawnload
+        </button>
+        <section class="recentPost">
+          <div class="post">
+            Postagens recentes
+            <p class="verTudo">>>>Ver tudo</p>
+          </div>
+          <section class="telas">
+            <section class="tela1"></section>
+            <section class="tela2"></section>
+          </section>
+        </section>
+        <section class="foot">
+          <center>
+            <p></p>
+            <img src="/portifolio/imagen/fb.svg" alt="face" />
+            <img src="/portifolio/imagen/Group.svg" alt="twi" />
+            <img src="/portifolio/imagen/insta.svg" alt="insta" />
+            <img src="/portifolio/imagen/Linkedin.svg" alt="Linkedin" />
+            <p></p>
+            <img
+              src="/portifolio/imagen/Copyright ©2020 All rights reserved.svg"
+              alt=""
+            />
+          </center>
+        </section>
       </body>
     </html>
   </head>
