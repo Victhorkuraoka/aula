@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./portifolio/imagen/reset.css">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <style>
+          html {
+            font-size: 6.5%;
+          }
+
+          
+          main {
+            
+            width: 100%;
+            max-width: 1200px;
+            
+          }
+          body {
+            display: flex;
+            align-items: center;
+            background-color: #FFFFFF;
+            font-weight: 300;
+            font-size: 13rem;
+            line-height: 24rem;
+            justify-items: center;
+            
+          }
+
+          .container {
+            display: grid;
+            grid-template-columns: 66% 33%;
+            grid-gap: 10rem;
+            max-width: 100%;
+          }
+
+          .column1 {
+            grid-column: 1;
+          }
+
+          .column2 {
+            grid-column: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .text1 {
+            margin-bottom: 10rem;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44rem;
+            line-height: 60rem;
+          }
+          .text2 {
+            margin-bottom: 10rem;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16rem;
+            line-height: 24rem;
+          }
+
+          .avatar {
+            width: 250rem;
+            height: 250rem;
+            border-radius: 50%;
+          }
+          .container2 {
+            position: relative;
+            height: 200rem; /* Apenas para fins de demonstração, ajuste conforme necessário */
+          }
+
+          .button-container {
+            position: absolute;
+            top: 10rem;
+            right: 10rem;
+          }
+
+          .button {
+            padding: 10rem;
+            background-color:#FFFFFF;
+            border: none;
+            border-radius: 5rem;
+            font-size: 14rem;
+            cursor: pointer;
+            margin-bottom: 5rem;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20rem;
+            line-height: 29rem;
+            text-align: right;
+          }
+          .jogo {
+            width: 208rem;
+            height: 47rem;
+
+            background: #ff6464;
+            border-radius: 2rem;
+          }
+
+          .recentPost {
+            width: 100%;
+            height: 396rem;
+            background-color:#EDF7FA;
+          }
+
+          .post {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22rem;
+            line-height: 60rem;
+            display: flex;
+            align-items: flex-end;
+          }
+          .verTudo {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16rem;
+            line-height: 24rem;
+            text-align: right;
+            color: #00a8cc;
+          }
+          .telas {
+           
+            display: flex;
+            
+          }
+          .tela1 {
+            background-color: #FFFFFF;
+            width: 50%;
+            height: 295rem;
+            margin-right: 8rem;
+            margin-left: 8rem;
+          }
+          .tela2 {
+            background-color: #FFFFFF;
+            width: 50%;
+            height: 295rem;
+            margin-right: 8rem;
+            margin-left: 8rem;
+          }
+          
+          .noticia {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26rem;
+            line-height: 38rem;
+
+            /* Dark Color */
+
+            color: #21243d;
+          }
+          .noticia2 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16rem;
+            line-height: 24rem;
+
+            /* Dark Color */
+
+            color: #21243d;
+          }
+          .featuredWorks{
+            width: 156rem;
+            height: 36rem;
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18rem;
+            line-height: 60rem;
+            color: #21243D;
+           
+          }
+          .foot {
+            width: 1152rem;
+            height: 182rem;
+            justify-content: center;
+            display: flex;
+          }
+          .image-container {
+             display: flex;
+            align-items: center;
+        }
+
+            .image-container img {
+            max-width: 200px; 
+            margin-right: 10px; 
+        }
+        .imagenDescrição{
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16rem;
+            line-height: 24rem;
+        }
+        .imagenNome{
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30rem;
+            line-height: 44rem;
+        }
+        .image-container2 {
+             display: flex;
+            align-items: center;
+            margin-top: 10rem;
+        }
+
+            .image-container2 img {
+            max-width: 200px; 
+            margin-right: 10px; 
+        }
+        .espacoBranco{
+            width: 1158rem;
+            height: 200rem
+
+        }
+
+        </style>
+      </head>
+      <main>
+      <body>
+        <div class="container2">
+          <div class="button-container">
+            <button class="button">Works</button>
+            <button class="button">Blog</button>
+            <button class="button">Contact</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="column1">
+            <p class="text1">
+              Ola me chamo Victhor, <br />
+              Sou desenvolvedor front-end
+            </p>
+            <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+          </div>
+          <div class="column2">
+            <img
+              class="avatar"
+              src="/portifolio/imagen/teste.jpg"
+              alt="Avatar"
+            />
+          </div>
+        </div>
+        <button
+          class="jogo"
+          onclick="window.location.href = 'www.retrogames.cc/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa.html'"
+        >
+          Dawnload
+        </button>
+        <section class="recentPost">
+          <div class="post">
+            Postagens recentes
+            <p class="verTudo">|Ver tudo</p>
+          </div>
+          <section class="telas">
+            <section class="tela1">
+              <p class="noticia">Making a design system from scratch</p>
+              <p class="noticia2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+            </section>
+            <section class="tela2">
+              <p class="noticia">Creating pixel perfect icons in Figma</p>
+              <p class="noticia2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </section>
+          </section>
+        </section>
+        <section class="featuredWorks">
+            <p> Obras em destaque</p>
+
+        </section>
+        <div class="image-container">
+            <img src="/portifolio/imagen/Rectangle 30.svg" alt="Imagem">
+            <div class="info">
+              <h2 class="imagenNome">Designing Dashboards</h2>
+              <p class="imagenDescrição">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+            </div>
+          </div>
+          <div class="image-container2">
+            <img src="/portifolio/imagen/Rectangle 32.svg" alt="Imagem">
+            <div class="info">
+              <h2 class="imagenNome">Vibrant Portraits of 2020</h2>
+              <p class="imagenDescrição">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+            </div>
+          </div>
+          <div class="image-container2">
+            <img src="/portifolio/imagen/Rectangle 34.svg" alt="Imagem">
+            <div class="info">
+              <h2 class="imagenNome">36 Days of Malayalam type</h2>
+              <p class="imagenDescrição">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+            </div>
+          </div>
+
+
+          <section class="espacoBranco"></section>
+        
+        <section class="foot">
+          <center>
+            <p></p>
+            <img src="/portifolio/imagen/fb.svg" alt="face" />
+            <img src="/portifolio/imagen/Group.svg" alt="twi" />
+            <img src="/portifolio/imagen/insta.svg" alt="insta" />
+            <img src="/portifolio/imagen/Linkedin.svg" alt="Linkedin" />
+            <p></p>
+            <img
+              src="/portifolio/imagen/Copyright ©2020 All rights reserved.svg"
+              alt=""
+            />
+          </center>
+        </section>
+      </body>
+    </main>
+    </html>
+  </head>
+</html>
